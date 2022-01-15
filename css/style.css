@@ -1,0 +1,33 @@
+body{
+    background: #000;
+}
+.show-result{
+    margin: 10px 0;
+}
+#screenSize{
+    font-size: 40px;
+    font-weight: 500;
+    color: #00ff1f;
+}
+button{
+    background: #00ff1f !important;
+    color: #000 !important;
+    padding: 8px 30px!important;
+    font-weight: 600 !important;
+}
+
+@media(max-width:499px){
+    #screenSize{
+    font-size: 30px;
+}
+}
+@media(max-width:399px){
+    #screenSize{
+    font-size: 25px;
+}
+}
+@media(max-width:375px){
+    #screenSize{
+        font-size: 25px;
+    }
+}
